@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <include
+        android:id="@+id/register_toolbar"
+        layout="@layout/app_bar_layout" />
+
+
+    <EditText
+        android:id="@+id/registerName"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/registerEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-204dp"
+        android:ems="10"
+        android:hint="@string/full_name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/hint" />
+
+    <EditText
+        android:id="@+id/registerPassword"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/registerEmail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/hint" />
+
+    <Button
+        android:id="@+id/registerCreateAccountButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="185dp"
+        android:background="@drawable/oval_shape_button"
+        android:text="@string/create_account" />
+
+    <EditText
+        android:id="@+id/registerEmail"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:hint="@string/email_id"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/hint" />
+
+    <TextView
+        android:id="@+id/register_newAcText"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/registerPassword"
+        android:layout_marginTop="90dp"
+        android:text="Create a New Account"
+        android:textColor="@color/heading"
+        android:textSize="30dp" />
+</RelativeLayout>

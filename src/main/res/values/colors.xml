@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff7043</color>
+    <color name="colorPrimaryDark">#c63f17</color>
+    <color name="colorAccent">#FF5521</color>
+    <color name="heading">#4265f4</color>
+    <color name="hint">#507a33</color>
+    <color name="khakhi">#bdb76b</color>
+    <color name="orange">#ff4f00</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#cccccc</color>
+    <color name="green">#60ad5e</color>
+    <color name="greyvarient">#c7c7c7</color>
+    <color name="black">#000000</color>
+    <color name="lightBlue">#6666ff</color>
+</resources>
